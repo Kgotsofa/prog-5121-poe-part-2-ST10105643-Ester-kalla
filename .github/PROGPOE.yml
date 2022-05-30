@@ -62,4 +62,4 @@ jobs:
         #run Task and output report 
       - name: run tests and create report 
         working-directory: ./test
-        run: java  "../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class assignment1.TaskTest
+        run: java  "../testresources/junit-platform-console-standalone-1.6.0.jar" -cp "." --select-class assignment1.Tasktest
